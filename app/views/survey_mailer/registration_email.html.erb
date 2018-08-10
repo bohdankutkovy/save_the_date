@@ -1,0 +1,18 @@
+<p>
+Ім'я: <%= @survey.name %>
+<br/>
+Email: <%= @survey.email %>
+<br/>
+Кількість гостей: <%= @survey.guest %>
+<br/>
+Відвідають: <%= @survey.event %>
+</p>
+<br/>
+<% if @survey.message.present? %>
+  <p>
+    Повідомлення:
+  </p>
+  <p>
+    <%= @survey.message %>
+  </p>
+<% end %>

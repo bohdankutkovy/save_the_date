@@ -1,4 +1,4 @@
-<%= form_for @survey, html: {id:'rspv-form', class: 'form validate-rsvp-form row'} do |f| %>
+<%= form_for @survey, url: surveys_path, html: {id:'rspv-form', class: 'form validate-rsvp-form row'} do |f| %>
   <div class="col col-sm-6">
     <%= f.text_field :name, class: 'form-control', placeholder: 'Ваше ім\'я' %>
   </div>
@@ -9,17 +9,17 @@
     <%= f.select(:guest, ['Кількість Гостей*'] + Survey::GUESTS, {disabled: 'Кількість Гостей*', selected: 'Кількість Гостей*'}, {class: 'form-control'}) %>
   </div>
   <div class="col col-sm-6">
-    <%= f.select(:guest, ['Збираюсь відвідати*'] + Survey::EVENTS, {disabled: 'Збираюсь відвідати*', selected: 'Збираюсь відвідати*'}, {class: 'form-control'}) %>
+    <%= f.select(:event, ['Збираюсь відвідати*'] + Survey::EVENTS, {disabled: 'Збираюсь відвідати*', selected: 'Збираюсь відвідати*'}, {class: 'form-control'}) %>
   </div>
   <div class="col col-sm-12">
     <%= f.text_area :message, class: 'form-control', placeholder: 'Ваше повідомлення' %>
   </div>
   <div class="col col-sm-12 submit-btn">
-    <button type="submit" class="submit">Відправити запрошення</button>
+    <%= f.button 'Відправити запрошення', class: 'submit' %>
     <span id="loader"><i class="fa fa-refresh fa-spin fa-3x fa-fw"></i></span>
   </div>
   <div class="col col-md-12 success-error-message">
-    <div id="success">Thank you</div>
-    <div id="error"> Error occurred while sending email. Please try again later. </div>
+    <div id="success">Будемо раді вас бачити!</div>
+    <div id="error"> Помилка :( </div>
   </div>
 <% end %>

@@ -43,6 +43,13 @@ html {
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Country_Western_Script_Black";
+    src: font-url("Country_Western_Script_Black.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   font-family: "BenguiatGothicC", sans-serif;
   background-color: #fff;
@@ -450,7 +457,7 @@ a:focus {
 }
 
 .section-title h2, .section-title-white h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Country_Western_Script_Black", cursive;
   background-color: rgba(94, 154, 142, 0.1);
   font-size: 46px;
   font-size: 2.55556rem;
@@ -1458,7 +1465,7 @@ a:focus {
 }
 
 .header-style-1 .couple-logo h1, .header-style-2 .couple-logo h1 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Country_Western_Script_Black", cursive;
   font-size: 35px;
   font-size: 1.94444rem;
   margin: 0;
@@ -1739,7 +1746,7 @@ a:focus {
 }
 
 .hero .wedding-announcement .couple-name-merried-text h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Country_Western_Script_Black", cursive;
   font-size: 90px;
   font-size: 5rem;
   color: #fff;
@@ -1818,7 +1825,7 @@ a:focus {
 }
 
 .hero .wedding-announcement .save-the-date {
-  width: 350px;
+  width: 400px;
   height: 350px;
   position: absolute;
   left: 50%;
@@ -1892,7 +1899,7 @@ a:focus {
 }
 
 .hero .wedding-announcement .save-the-date h4 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Country_Western_Script_Black", cursive;
   font-size: 40px;
   font-size: 2.22222rem;
   color: #fff;
@@ -2050,7 +2057,7 @@ a:focus {
 }
 
 .site-footer h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Country_Western_Script_Black", cursive;
   font-size: 67px;
   font-size: 3.72222rem;
   color: #fff;
@@ -2287,7 +2294,7 @@ a:focus {
 }
 
 .wedding-couple-section .details .signature {
-  font-family: "Great Vibes", cursive;
+  font-family: "Country_Western_Script_Black", cursive;
   font-size: 28px;
   font-size: 1.55556rem;
   display: block;
@@ -2405,7 +2412,7 @@ a:focus {
 }
 
 .count-down-section h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Country_Western_Script_Black", cursive;
   font-size: 72px;
   font-size: 4rem;
   color: #fff;
@@ -2763,7 +2770,7 @@ a:focus {
 }
 
 .cta h2 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Country_Western_Script_Black", cursive;
   font-size: 75px;
   font-size: 4.16667rem;
   color: #fff;

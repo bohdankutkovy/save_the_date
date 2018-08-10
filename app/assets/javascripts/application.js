@@ -11,7 +11,8 @@
 // about supported directives.
 //
 
-//= require jquery.min
+//= require jquery
+//= require jquery_ujs
 //= require jquery-plugin-collection
 //= require bootstrap.min
 //= require site/index

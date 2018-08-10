@@ -522,59 +522,43 @@ $(document).ready(function () {
   /*------------------------------------------
       = RSVP FORM SUBMISSION
   -------------------------------------------*/
-  if ($("#rsvp-form").length) {
-    $("#rsvp-form").validate({
-      rules: {
-        name: {
-          required: true,
-          minlength: 2
-        },
-        email: "required",
 
-        guests_count: {
-          required: true
-        },
+  $(".validate-rsvp-form").on('submit', function (e) {
+    e.preventDefault();
 
-        events: {
-          required: true
-        }
+    $("#loader").css("display", "inline-block");
+    $.ajax({
+      type: "POST",
+      url: "/surveys",
+      data: $(this).serialize(),
+      dataType: "json",
+      success: function () {
+        $( "#loader").hide();
+        $( "#success").slideDown( "slow" );
+        setTimeout(function() {
+          $( "#success").slideUp( "slow" );
+        }, 3000);
+        setTimeout(function() {
+          $('html, body').animate({
+            scrollTop: $(".getting-there-section").offset().top
+          }, 2000);
+        }, 2000);
 
+        $(".validate-rsvp-form").trigger('reset');
       },
-
-      messages: {
-        name: "Please enter your name",
-        email: "Please enter your email",
-        guest: "Select your number of guest",
-        events: "Select your event list"
-      },
-
-      submitHandler: function (form) {
-        $("#loader").css("display", "inline-block");
-        $.ajax({
-          type: "POST",
-          url: "mail.php",
-          data: $(form).serialize(),
-          success: function () {
-            $( "#loader").hide();
-            $( "#success").slideDown( "slow" );
-            setTimeout(function() {
-              $( "#success").slideUp( "slow" );
-            }, 3000);
-            form.reset();
-          },
-          error: function() {
-            $( "#loader").hide();
-            $( "#error").slideDown( "slow" );
-            setTimeout(function() {
-              $( "#error").slideUp( "slow" );
-            }, 3000);
-          }
-        });
-        return false; // required to block normal submit since you used ajax
+      error: function(xhr) {
+        var errors = $.parseJSON(xhr.responseText).message;
+        $( "#loader").hide();
+        $( "#error").html( errors );
+        $( "#error").slideDown( "slow" );
+        setTimeout(function() {
+          $( "#error").slideUp( "slow" );
+        }, 5000);
       }
-
     });
-  }
+  });
+
+
 
 
   /*------------------------------------------
