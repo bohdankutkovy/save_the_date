@@ -468,10 +468,10 @@ $(document).ready(function () {
   if ($("#clock").length) {
     $('#clock').countdown('2018/10/05', function(event) {
       var $this = $(this).html(event.strftime(''
-        + '<div class="box"><div>%D</div> <span>Days</span> </div>'
-        + '<div class="box"><div>%H</div> <span>Hours</span> </div>'
-        + '<div class="box"><div>%M</div> <span>Mins</span> </div>'
-        + '<div class="box"><div>%S</div> <span>Secs</span> </div>'));
+        + '<div class="box"><div>%D</div> <span>Днів</span> </div>'
+        + '<div class="box"><div>%H</div> <span>Годин</span> </div>'
+        + '<div class="box"><div>%M</div> <span>Хвилин</span> </div>'
+        + '<div class="box"><div>%S</div> <span>Секунд</span> </div>'));
     });
   }
 
