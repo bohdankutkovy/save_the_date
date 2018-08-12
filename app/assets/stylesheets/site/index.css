@@ -1860,6 +1860,12 @@ a:focus {
   }
 }
 
+@media (max-width: 376px) {
+    .hero .hero-slider .slide-item {
+       width: 480px !important;
+    }
+}
+
 .hero .wedding-announcement .save-the-date:before, .hero .wedding-announcement .save-the-date:after {
   content: "";
   position: absolute;
@@ -2021,7 +2027,7 @@ a:focus {
 #0.5	footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: url("img/footer-bg.jpg") center center/cover no-repeat local;
+  background: url("footer_2.jpg") center center/cover no-repeat local;
   text-align: center;
   color: #fff;
   padding: 160px 0;
