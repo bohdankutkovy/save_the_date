@@ -2027,7 +2027,7 @@ a:focus {
 #0.5	footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: url("footer_2.jpg") center center/cover no-repeat local;
+  background: image-url("footer_2.jpg") center center/cover no-repeat local;
   text-align: center;
   color: #fff;
   padding: 160px 0;
