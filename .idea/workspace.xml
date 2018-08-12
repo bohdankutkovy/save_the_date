@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e607114b-6fac-419f-913a-e76ec45bab7d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/site/index.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/site/index.css" />
+      <change beforePath="$PROJECT_DIR$/app/views/site/index.html.erb" afterPath="$PROJECT_DIR$/app/views/site/index.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/site/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="325" column="14" lean-forward="false" selection-start-line="325" selection-start-column="14" selection-end-line="325" selection-end-column="14" />
+            <state relative-caret-position="389">
+              <caret line="246" column="88" lean-forward="false" selection-start-line="246" selection-start-column="88" selection-end-line="246" selection-end-column="88" />
               <folding>
                 <element signature="n#div#0;n#section#0;n#div#0;n#!!top" expanded="false" />
               </folding>
@@ -61,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/site/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="367">
@@ -92,6 +92,7 @@
       <find>footer_2</find>
       <find>form.jp</find>
       <find>assets§</find>
+      <find>одруже</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/assets</dir>
@@ -104,8 +105,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/site/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/site/index.css" />
+        <option value="$PROJECT_DIR$/app/views/site/index.html.erb" />
       </list>
     </option>
   </component>
@@ -417,12 +418,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534009737220</updated>
-      <workItem from="1534009738492" duration="7734000" />
+      <workItem from="1534009738492" duration="7860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7734000" />
+    <option name="totallyTimeSpent" value="7860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -515,16 +516,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/site/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="325" column="14" lean-forward="false" selection-start-line="325" selection-start-column="14" selection-end-line="325" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#0;n#section#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/images/footer_2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -535,6 +526,16 @@
         <state relative-caret-position="367">
           <caret line="2029" column="23" lean-forward="false" selection-start-line="2029" selection-start-column="14" selection-end-line="2029" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/site/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="246" column="88" lean-forward="false" selection-start-line="246" selection-start-column="88" selection-end-line="246" selection-end-column="88" />
+          <folding>
+            <element signature="n#div#0;n#section#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
