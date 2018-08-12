@@ -25,8 +25,8 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/site/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="246" column="88" lean-forward="false" selection-start-line="246" selection-start-column="88" selection-end-line="246" selection-end-column="88" />
+            <state relative-caret-position="495">
+              <caret line="128" column="44" lean-forward="false" selection-start-line="128" selection-start-column="44" selection-end-line="128" selection-end-column="44" />
               <folding>
                 <element signature="n#div#0;n#section#0;n#div#0;n#!!top" expanded="false" />
               </folding>
@@ -418,12 +418,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534009737220</updated>
-      <workItem from="1534009738492" duration="7860000" />
+      <workItem from="1534009738492" duration="7948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7860000" />
+    <option name="totallyTimeSpent" value="7948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -531,8 +531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/site/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="246" column="88" lean-forward="false" selection-start-line="246" selection-start-column="88" selection-end-line="246" selection-end-column="88" />
+        <state relative-caret-position="495">
+          <caret line="128" column="44" lean-forward="false" selection-start-line="128" selection-start-column="44" selection-end-line="128" selection-end-column="44" />
           <folding>
             <element signature="n#div#0;n#section#0;n#div#0;n#!!top" expanded="false" />
           </folding>
