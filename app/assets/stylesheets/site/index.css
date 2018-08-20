@@ -3465,16 +3465,22 @@ a:focus {
 /*--------------------------------------------------------------
 #1.4	getting-there-section
 --------------------------------------------------------------*/
+.getting-there-section ul {
+    list-style-type: disc !important;
+}
+
 .getting-there-section {
   background-color: #5e9a8e;
 }
 
 .getting-there-section .content h3,
+.getting-there-section .content li,
 .getting-there-section .content p {
   color: #fff;
 }
 
 @media (max-width: 1199px) {
+  .getting-there-section .content li,
   .getting-there-section .content p {
     font-size: 16px;
     font-size: 0.88889rem;
