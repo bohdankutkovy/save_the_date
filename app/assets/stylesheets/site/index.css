@@ -1862,7 +1862,7 @@ a:focus {
 
 @media (max-width: 376px) {
     .hero .hero-slider .slide-item {
-       width: 480px !important;
+       width: 375px !important;
     }
 }
 
