@@ -1,6 +1,6 @@
 <%= form_for @survey, url: surveys_path, html: {id:'rspv-form', class: 'form validate-rsvp-form row'} do |f| %>
   <div class="col col-sm-6">
-    <%= f.text_field :name, class: 'form-control', placeholder: 'Ваше ім\'я' %>
+    <%= f.text_field :name, class: 'form-control', placeholder: 'Ваше повне ім\'я' %>
   </div>
   <div class="col col-sm-6">
     <%= f.email_field :email, class: 'form-control', placeholder: 'Ваш Імейл' %>
