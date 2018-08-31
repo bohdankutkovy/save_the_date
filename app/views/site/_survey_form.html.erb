@@ -3,7 +3,7 @@
     <%= f.text_field :name, class: 'form-control', placeholder: 'Ваше повне ім\'я' %>
   </div>
   <div class="col col-sm-6">
-    <%= f.email_field :email, class: 'form-control', placeholder: 'Ваш Імейл' %>
+    <%= f.text_field :phone_number, class: 'form-control', placeholder: '(xxx) xxx-xx-xx' %>
   </div>
   <div class="col col-sm-6">
     <%= f.select(:guest, ['Кількість Гостей*'] + Survey::GUESTS, {disabled: 'Кількість Гостей*', selected: 'Кількість Гостей*'}, {class: 'form-control'}) %>

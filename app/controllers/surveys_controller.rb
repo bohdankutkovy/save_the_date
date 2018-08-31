@@ -19,7 +19,7 @@ class SurveysController < ApplicationController
   private
 
   def survey_params
-    params.require(:survey).permit(:name, :email, :guest, :event, :message)
+    params.require(:survey).permit(:name, :phone_number, :email, :guest, :event, :message)
   end
 
 end

@@ -16,5 +16,8 @@
 //= require jquery-plugin-collection
 //= require bootstrap.min
 //= require site/index
+//= require jquery.mask
 
 //= require activestorage
+
+$('#survey_phone_number').mask('(000) 000-00-00');
